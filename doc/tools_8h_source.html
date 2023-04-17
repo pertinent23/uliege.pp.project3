@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CALCULATRICE GTK:  Fichier source de tools.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CALCULATRICE GTK
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+   <div id="projectbrief">La Construction d&#39;un calculatrice avec GTK</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tools_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">tools.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="tools_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="tools_8h.html#a7be5b8cbaa51c7a90c6dc90bf7278d9f">    1</a></span>&#160;<span class="preprocessor">#ifndef _TOOLS_</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _TOOLS_</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;gtk/gtk.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="tools_8h.html#a4dc5112e48cbcb16bac12ff015c614ce">    6</a></span>&#160;<span class="preprocessor">#define CALC_HEIGHT 400</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="tools_8h.html#ab2b34edbd92cf0fd45937ed66979573d">    7</a></span>&#160;<span class="preprocessor">#define CALC_WIDTH 500</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="structGtkActionData__t.html">GtkActionData_t</a> <a class="code" href="structGtkActionData__t.html">GtkActionData</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="structGtkActionData__t.html">GtkActionData</a> *<a class="code" href="tools_8h.html#acb2278452f2d44242063041e4575e8fa">create_data</a>(GtkWidget *<a class="code" href="structGtkActionData__t.html#ab7ad53e898feda8bab53c2088cb75881">field1</a>, GtkWidget *<a class="code" href="structGtkActionData__t.html#a7e1d5d90dd6ab6e7be3e12372ea76ab5">field2</a>, GtkWidget *<a class="code" href="structGtkActionData__t.html#a844297572cbb79ad6ba49058910c6e79">error</a>, GtkWidget *<a class="code" href="structGtkActionData__t.html#aa9263b77e104ba22a0f74338eb6be99e">window</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;GtkWidget *<a class="code" href="tools_8h.html#acb804f6eda8eb14a8bad5d0bc20e7624">get_window</a>(<span class="keyword">struct</span> <a class="code" href="structGtkActionData__t.html">GtkActionData_t</a> *data);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tools_8h.html#a81845812d8408f2864a8b2a6512f917e">destroy_data</a>(<span class="keyword">struct</span> <a class="code" href="structGtkActionData__t.html">GtkActionData_t</a> *data);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tools_8h.html#a827af55c29ccfd17c251de1404ac11b2">show_message</a>(<span class="keyword">struct</span> <a class="code" href="structGtkActionData__t.html">GtkActionData_t</a> *data, <span class="keyword">const</span> <span class="keywordtype">char</span> *message);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tools_8h.html#a549dcadd05e9a845993520063d86983b">destroy_window</a>(GtkWidget *<a class="code" href="structGtkActionData__t.html#aa9263b77e104ba22a0f74338eb6be99e">window</a>, gpointer data);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">void</span> <a class="code" href="tools_8h.html#a4592512f1ea945716f6878462197c38c">button_clicked</a>(GtkWidget *button, gpointer data);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="tools_8h.html#a0b38dce5d5df7fc2ebfa1be7d9818fdc">get_field1_value</a>(<span class="keyword">struct</span> <a class="code" href="structGtkActionData__t.html">GtkActionData_t</a> *data);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="tools_8h.html#a0d7eb53cfa942ae5fcf11b05eaedba6e">get_field2_value</a>(<span class="keyword">struct</span> <a class="code" href="structGtkActionData__t.html">GtkActionData_t</a> *data);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// __TOOLS__</span></div>
+<div class="ttc" id="astructGtkActionData__t_html"><div class="ttname"><a href="structGtkActionData__t.html">GtkActionData_t</a></div><div class="ttdef"><b>Definition:</b> tools.c:7</div></div>
+<div class="ttc" id="astructGtkActionData__t_html_a7e1d5d90dd6ab6e7be3e12372ea76ab5"><div class="ttname"><a href="structGtkActionData__t.html#a7e1d5d90dd6ab6e7be3e12372ea76ab5">GtkActionData_t::field2</a></div><div class="ttdeci">GtkWidget * field2</div><div class="ttdef"><b>Definition:</b> tools.c:9</div></div>
+<div class="ttc" id="astructGtkActionData__t_html_a844297572cbb79ad6ba49058910c6e79"><div class="ttname"><a href="structGtkActionData__t.html#a844297572cbb79ad6ba49058910c6e79">GtkActionData_t::error</a></div><div class="ttdeci">GtkWidget * error</div><div class="ttdef"><b>Definition:</b> tools.c:10</div></div>
+<div class="ttc" id="astructGtkActionData__t_html_aa9263b77e104ba22a0f74338eb6be99e"><div class="ttname"><a href="structGtkActionData__t.html#aa9263b77e104ba22a0f74338eb6be99e">GtkActionData_t::window</a></div><div class="ttdeci">GtkWidget * window</div><div class="ttdef"><b>Definition:</b> tools.c:11</div></div>
+<div class="ttc" id="astructGtkActionData__t_html_ab7ad53e898feda8bab53c2088cb75881"><div class="ttname"><a href="structGtkActionData__t.html#ab7ad53e898feda8bab53c2088cb75881">GtkActionData_t::field1</a></div><div class="ttdeci">GtkWidget * field1</div><div class="ttdef"><b>Definition:</b> tools.c:8</div></div>
+<div class="ttc" id="atools_8h_html_a0b38dce5d5df7fc2ebfa1be7d9818fdc"><div class="ttname"><a href="tools_8h.html#a0b38dce5d5df7fc2ebfa1be7d9818fdc">get_field1_value</a></div><div class="ttdeci">const char * get_field1_value(struct GtkActionData_t *data)</div><div class="ttdoc">Get the field1 value object.</div><div class="ttdef"><b>Definition:</b> tools.c:130</div></div>
+<div class="ttc" id="atools_8h_html_a0d7eb53cfa942ae5fcf11b05eaedba6e"><div class="ttname"><a href="tools_8h.html#a0d7eb53cfa942ae5fcf11b05eaedba6e">get_field2_value</a></div><div class="ttdeci">const char * get_field2_value(struct GtkActionData_t *data)</div><div class="ttdoc">Get the field2 value object.</div><div class="ttdef"><b>Definition:</b> tools.c:146</div></div>
+<div class="ttc" id="atools_8h_html_a4592512f1ea945716f6878462197c38c"><div class="ttname"><a href="tools_8h.html#a4592512f1ea945716f6878462197c38c">button_clicked</a></div><div class="ttdeci">void button_clicked(GtkWidget *button, gpointer data)</div><div class="ttdef"><b>Definition:</b> tools.c:72</div></div>
+<div class="ttc" id="atools_8h_html_a549dcadd05e9a845993520063d86983b"><div class="ttname"><a href="tools_8h.html#a549dcadd05e9a845993520063d86983b">destroy_window</a></div><div class="ttdeci">void destroy_window(GtkWidget *window, gpointer data)</div><div class="ttdef"><b>Definition:</b> tools.c:14</div></div>
+<div class="ttc" id="atools_8h_html_a81845812d8408f2864a8b2a6512f917e"><div class="ttname"><a href="tools_8h.html#a81845812d8408f2864a8b2a6512f917e">destroy_data</a></div><div class="ttdeci">void destroy_data(struct GtkActionData_t *data)</div><div class="ttdef"><b>Definition:</b> tools.c:121</div></div>
+<div class="ttc" id="atools_8h_html_a827af55c29ccfd17c251de1404ac11b2"><div class="ttname"><a href="tools_8h.html#a827af55c29ccfd17c251de1404ac11b2">show_message</a></div><div class="ttdeci">void show_message(struct GtkActionData_t *data, const char *message)</div><div class="ttdef"><b>Definition:</b> tools.c:155</div></div>
+<div class="ttc" id="atools_8h_html_acb2278452f2d44242063041e4575e8fa"><div class="ttname"><a href="tools_8h.html#acb2278452f2d44242063041e4575e8fa">create_data</a></div><div class="ttdeci">GtkActionData * create_data(GtkWidget *field1, GtkWidget *field2, GtkWidget *error, GtkWidget *window)</div><div class="ttdoc">Create a data object.</div><div class="ttdef"><b>Definition:</b> tools.c:105</div></div>
+<div class="ttc" id="atools_8h_html_acb804f6eda8eb14a8bad5d0bc20e7624"><div class="ttname"><a href="tools_8h.html#acb804f6eda8eb14a8bad5d0bc20e7624">get_window</a></div><div class="ttdeci">GtkWidget * get_window(struct GtkActionData_t *data)</div><div class="ttdoc">Get the window object.</div><div class="ttdef"><b>Definition:</b> tools.c:139</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tools_8h.html">tools.h</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>

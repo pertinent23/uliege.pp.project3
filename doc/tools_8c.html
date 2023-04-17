@@ -1,0 +1,517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CALCULATRICE GTK: Référence du fichier tools.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="icon.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">CALCULATRICE GTK
+   &#160;<span id="projectnumber">1.0.0</span>
+   </div>
+   <div id="projectbrief">La Construction d&#39;un calculatrice avec GTK</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('tools_8c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier tools.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;assert.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="tools_8h_source.html">tools.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de tools.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="tools_8c__incl.png" border="0" usemap="#atools_8c" alt=""/></div>
+<map name="atools_8c" id="atools_8c">
+<area shape="rect" title=" " alt="" coords="151,5,216,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,76,107"/>
+<area shape="rect" title=" " alt="" coords="100,80,171,107"/>
+<area shape="rect" title=" " alt="" coords="195,80,270,107"/>
+<area shape="rect" href="tools_8h.html" title=" " alt="" coords="294,80,361,107"/>
+<area shape="rect" title=" " alt="" coords="287,155,367,181"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structGtkActionData__t.html">GtkActionData_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a549dcadd05e9a845993520063d86983b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a549dcadd05e9a845993520063d86983b">destroy_window</a> (GtkWidget *window, gpointer data)</td></tr>
+<tr class="separator:a549dcadd05e9a845993520063d86983b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfeebad21b201963371597adf3314b41"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#acfeebad21b201963371597adf3314b41">is_valid_number</a> (const char *number)</td></tr>
+<tr class="separator:acfeebad21b201963371597adf3314b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5d960354774dc177393b360c0f90aa9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#aa5d960354774dc177393b360c0f90aa9">max</a> (int a, int b)</td></tr>
+<tr class="separator:aa5d960354774dc177393b360c0f90aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86648203b95f5de4daf60e1bc48e2e7a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a86648203b95f5de4daf60e1bc48e2e7a">create_popup</a> (GtkWidget *container, char *message)</td></tr>
+<tr class="separator:a86648203b95f5de4daf60e1bc48e2e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99522ac2117a052c8aba3a2093de6a3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a99522ac2117a052c8aba3a2093de6a3a">button_clicked</a> (GtkWidget *button, gpointer pt)</td></tr>
+<tr class="separator:a99522ac2117a052c8aba3a2093de6a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb589bd6e2c178344a0f75a4e64e103"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#abdb589bd6e2c178344a0f75a4e64e103">create_data</a> (GtkWidget *field1, GtkWidget *field2, GtkWidget *error, GtkWidget *window)</td></tr>
+<tr class="memdesc:abdb589bd6e2c178344a0f75a4e64e103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a data object.  <a href="tools_8c.html#abdb589bd6e2c178344a0f75a4e64e103">Plus de détails...</a><br /></td></tr>
+<tr class="separator:abdb589bd6e2c178344a0f75a4e64e103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81845812d8408f2864a8b2a6512f917e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a81845812d8408f2864a8b2a6512f917e">destroy_data</a> (struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *data)</td></tr>
+<tr class="separator:a81845812d8408f2864a8b2a6512f917e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b38dce5d5df7fc2ebfa1be7d9818fdc"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a0b38dce5d5df7fc2ebfa1be7d9818fdc">get_field1_value</a> (struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *data)</td></tr>
+<tr class="memdesc:a0b38dce5d5df7fc2ebfa1be7d9818fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the field1 value object.  <a href="tools_8c.html#a0b38dce5d5df7fc2ebfa1be7d9818fdc">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0b38dce5d5df7fc2ebfa1be7d9818fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb804f6eda8eb14a8bad5d0bc20e7624"><td class="memItemLeft" align="right" valign="top">GtkWidget *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#acb804f6eda8eb14a8bad5d0bc20e7624">get_window</a> (struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *data)</td></tr>
+<tr class="memdesc:acb804f6eda8eb14a8bad5d0bc20e7624"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the window object.  <a href="tools_8c.html#acb804f6eda8eb14a8bad5d0bc20e7624">Plus de détails...</a><br /></td></tr>
+<tr class="separator:acb804f6eda8eb14a8bad5d0bc20e7624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d7eb53cfa942ae5fcf11b05eaedba6e"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a0d7eb53cfa942ae5fcf11b05eaedba6e">get_field2_value</a> (struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *data)</td></tr>
+<tr class="memdesc:a0d7eb53cfa942ae5fcf11b05eaedba6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the field2 value object.  <a href="tools_8c.html#a0d7eb53cfa942ae5fcf11b05eaedba6e">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a0d7eb53cfa942ae5fcf11b05eaedba6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a827af55c29ccfd17c251de1404ac11b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tools_8c.html#a827af55c29ccfd17c251de1404ac11b2">show_message</a> (struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *data, const char *message)</td></tr>
+<tr class="separator:a827af55c29ccfd17c251de1404ac11b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="a99522ac2117a052c8aba3a2093de6a3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99522ac2117a052c8aba3a2093de6a3a">&#9670;&nbsp;</a></span>button_clicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void button_clicked </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>button</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">button</td><td></td></tr>
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abdb589bd6e2c178344a0f75a4e64e103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb589bd6e2c178344a0f75a4e64e103">&#9670;&nbsp;</a></span>create_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a>* create_data </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>field1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>field2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>error</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>window</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a data object. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">field1</td><td></td></tr>
+    <tr><td class="paramname">field2</td><td></td></tr>
+    <tr><td class="paramname">error</td><td></td></tr>
+    <tr><td class="paramname">window</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>GtkActionData* </dd></dl>
+
+</div>
+</div>
+<a id="a86648203b95f5de4daf60e1bc48e2e7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86648203b95f5de4daf60e1bc48e2e7a">&#9670;&nbsp;</a></span>create_popup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void create_popup </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a81845812d8408f2864a8b2a6512f917e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81845812d8408f2864a8b2a6512f917e">&#9670;&nbsp;</a></span>destroy_data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void destroy_data </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a549dcadd05e9a845993520063d86983b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a549dcadd05e9a845993520063d86983b">&#9670;&nbsp;</a></span>destroy_window()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void destroy_window </td>
+          <td>(</td>
+          <td class="paramtype">GtkWidget *&#160;</td>
+          <td class="paramname"><em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">gpointer&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td></td></tr>
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0b38dce5d5df7fc2ebfa1be7d9818fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b38dce5d5df7fc2ebfa1be7d9818fdc">&#9670;&nbsp;</a></span>get_field1_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* get_field1_value </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the field1 value object. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>const char* </dd></dl>
+
+</div>
+</div>
+<a id="a0d7eb53cfa942ae5fcf11b05eaedba6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7eb53cfa942ae5fcf11b05eaedba6e">&#9670;&nbsp;</a></span>get_field2_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char* get_field2_value </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the field2 value object. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>const char* </dd></dl>
+
+</div>
+</div>
+<a id="acb804f6eda8eb14a8bad5d0bc20e7624"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb804f6eda8eb14a8bad5d0bc20e7624">&#9670;&nbsp;</a></span>get_window()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GtkWidget* get_window </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the window object. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>GtkWidget* </dd></dl>
+
+</div>
+</div>
+<a id="acfeebad21b201963371597adf3314b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfeebad21b201963371597adf3314b41">&#9670;&nbsp;</a></span>is_valid_number()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int is_valid_number </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5d960354774dc177393b360c0f90aa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5d960354774dc177393b360c0f90aa9">&#9670;&nbsp;</a></span>max()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int max </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a827af55c29ccfd17c251de1404ac11b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a827af55c29ccfd17c251de1404ac11b2">&#9670;&nbsp;</a></span>show_message()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void show_message </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structGtkActionData__t.html">GtkActionData_t</a> *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td></td></tr>
+    <tr><td class="paramname">message</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="tools_8c.html">tools.c</a></li>
+    <li class="footer">Généré par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+  </ul>
+</div>
+</body>
+</html>
