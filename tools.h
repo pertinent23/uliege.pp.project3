@@ -3,6 +3,7 @@
 
 #include <gtk/gtk.h>
 
+#define UNUSED(x) (void)(x)
 #define CALC_HEIGHT 400
 #define CALC_WIDTH 500
 

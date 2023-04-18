@@ -14,6 +14,8 @@ struct GtkActionData_t
 void destroy_window(GtkWidget *window, gpointer data)
 {
     gtk_main_quit();
+    UNUSED(window);
+    UNUSED(data);
 }
 
 static int is_valid_number(const char *number)
@@ -45,15 +47,16 @@ static void create_popup(GtkWidget *container, char *message)
 
     dialog = gtk_dialog_new();
     button = gtk_dialog_add_button(GTK_DIALOG(dialog), "OK", 0);
+
     gtk_window_set_default_size(GTK_WINDOW(dialog), (int) CALC_WIDTH/2, (int) CALC_HEIGHT/3);
 
     g_signal_connect_swapped(
-        dialog, "response",
+        G_OBJECT(dialog), "response",
         G_CALLBACK(gtk_widget_destroy), dialog
     );
 
     g_signal_connect_swapped(
-        button, "pressed",
+        G_OBJECT(button), "pressed",
         G_CALLBACK(gtk_widget_destroy), dialog
     );
     
@@ -67,10 +70,12 @@ static void create_popup(GtkWidget *container, char *message)
     );
 
     gtk_widget_show_all(dialog);
+    gtk_window_set_transient_for(GTK_WINDOW(dialog), GTK_WINDOW(container));
 }
 
 void button_clicked(GtkWidget *button, gpointer pt)
 {
+    UNUSED(button);
     GtkActionData *data = (GtkActionData *) pt;
     const char 
         *nb1 = get_field1_value(data), 
